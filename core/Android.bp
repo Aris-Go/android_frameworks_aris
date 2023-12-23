@@ -25,9 +25,47 @@ filegroup {
     visibility: ["//frameworks/base"],
 }
 
+filegroup {
+    name: "framework-aris.api.public.latest",
+    srcs: ["api/current.txt"],
+}
+
+filegroup {
+    name: "framework-aris-removed.api.public.latest",
+    srcs: ["api/removed.txt"],
+}
+
+filegroup {
+    name: "framework-aris-incompatibilities.api.public.latest",
+    srcs: ["api/test-current.txt"],
+}
+
+filegroup {
+    name: "framework-aris.api.system.latest",
+    srcs: ["api/system-current.txt"],
+}
+
+filegroup {
+    name: "framework-aris-removed.api.system.latest",
+    srcs: ["api/system-removed.txt"],
+}
+
+filegroup {
+    name: "framework-aris-incompatibilities.api.system.latest",
+    srcs: ["api/test-current.txt"],
+}
+
 java_library_static {
     name: "framework-aris.static",
     srcs: [":framework-aris-sources"],
+}
+
+java_sdk_library {
+    name: "framework-aris",
+    srcs: [":framework-aris-sources"],
+
+    api_packages: ["framework-aris"],
+    dist_group: "aris",
 }
 
 genrule {
