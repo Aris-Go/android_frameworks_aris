@@ -92,6 +92,13 @@ public final class ArisSettings {
          */
         public static final String PROXIMITY_ON_WAKE = "proximity_on_wake";
 
+        /**
+         * Whether to wake the display when plugging or unplugging the charger
+         *
+         * @hide
+         */
+        public static final String WAKE_WHEN_PLUGGED_OR_UNPLUGGED = "wake_when_plugged_or_unplugged";
+
     }
 
     /**
