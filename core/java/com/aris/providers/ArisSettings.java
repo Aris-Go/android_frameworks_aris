@@ -54,5 +54,15 @@ public final class ArisSettings {
     public static final class Global extends Settings.NameValueTable {
         // region Global Settings
 
+        /**
+         * Restrict USB
+         * 0 = Off, never
+         * 1 = Only when the screen is locked
+         * 2 = On, always
+         *
+         * @hide
+         */
+        public static final String TRUST_RESTRICT_USB = "trust_restrict_usb";
+
     }
 }
