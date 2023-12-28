@@ -454,6 +454,15 @@ public final class ArisSettings {
          */
         public static final String BERRY_BLACK_THEME = "berry_black_theme";
 
+        /**
+         * Whether volume panel should appear on the left (or right).
+         * 0 = false (on the right)
+         * 1 = true (on the left)
+         * 
+         * @hide
+         */
+        public static final String VOLUME_PANEL_ON_LEFT = "volume_panel_on_left";
+
     }
 
     /**
