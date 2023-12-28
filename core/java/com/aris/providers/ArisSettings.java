@@ -398,6 +398,14 @@ public final class ArisSettings {
          */
         public static final String SWAP_VOLUME_KEYS_ON_ROTATION = "swap_volume_keys_on_rotation";
 
+        /**
+         * Whether to hide clock when launcher is visible
+         * default: false
+         * 
+         * @hide
+         */
+        public static final String STATUS_BAR_CLOCK_AUTO_HIDE = "status_bar_clock_auto_hide";
+
     }
 
     /**
