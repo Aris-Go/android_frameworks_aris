@@ -58,11 +58,17 @@ filegroup {
 java_library_static {
     name: "framework-aris.static",
     srcs: [":framework-aris-sources"],
+    static_libs: [
+        "vendor.lineage.touch-V1.0-java",
+    ],
 }
 
 java_sdk_library {
     name: "framework-aris",
     srcs: [":framework-aris-sources"],
+    static_libs: [
+        "vendor.lineage.touch-V1.0-java",
+    ],
 
     api_packages: ["framework-aris"],
     dist_group: "aris",
