@@ -145,6 +145,12 @@ public final class ArisSettings {
         public static final String LOCKSCREEN_PIN_SCRAMBLE_LAYOUT =
                 "lockscreen_scramble_pin_layout";
 
+        /**
+         * Whether auto brightness is applied one shot when screen is turned on
+         * @hide
+         */
+        public static final String AUTO_BRIGHTNESS_ONE_SHOT = "auto_brightness_one_shot";
+
     }
 
     /**
