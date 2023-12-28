@@ -28,13 +28,13 @@ import com.android.server.SystemServiceManager;
  * specific system services. Since its part of the main looper provided by the system
  * server, it will be available indefinitely (until all the things die).
  */
+
 public class ArisSystemServer {
     private static final String TAG = "ArisSystemServer";
 
     public static void startServices(Context context, SystemServiceManager ssm) {
         String[] externalServices = context.getResources().getStringArray(
                 com.android.internal.R.array.config_externalArisServices);
-
         for (String service : externalServices) {
             try {
                 Slog.i(TAG, "Starting service " + service);
