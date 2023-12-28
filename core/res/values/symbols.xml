@@ -22,4 +22,8 @@
     <!-- External Aris specific core services -->
     <java-symbol type="array" name="config_externalArisServices" />
 
+    <!-- Device keyhandlers -->
+    <java-symbol type="array" name="config_deviceKeyHandlerLibs" />
+    <java-symbol type="array" name="config_deviceKeyHandlerClasses" />
+
 </resources>
