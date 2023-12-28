@@ -153,6 +153,12 @@ public final class ArisSettings {
          */
         public static final String FEATURE_TOUCH_HOVERING = "feature_touch_hovering";
 
+        /**
+         * Whether to include options in power menu for rebooting into recovery or bootloader
+         * @hide
+         */
+        public static final String ADVANCED_REBOOT = "advanced_reboot";
+
     }
 
     /**
