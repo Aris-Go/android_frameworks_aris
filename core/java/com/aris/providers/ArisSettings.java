@@ -130,6 +130,13 @@ public final class ArisSettings {
         public static final String TORCH_LONG_PRESS_POWER_TIMEOUT =
                 "torch_long_press_power_timeout";
 
+        /**
+         * Whether to scramble a pin unlock layout
+         * @hide
+         */
+        public static final String LOCKSCREEN_PIN_SCRAMBLE_LAYOUT =
+                "lockscreen_scramble_pin_layout";
+
     }
 
     /**
