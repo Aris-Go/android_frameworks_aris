@@ -207,6 +207,13 @@ public final class ArisSettings {
          */
         public static final String QS_SHOW_AUTO_BRIGHTNESS = "qs_show_auto_brightness";
 
+        /**
+         * Whether to use black theme for dark mode
+         * 
+         * @hide
+         */
+        public static final String BERRY_BLACK_THEME = "berry_black_theme";
+
     }
 
     /**
