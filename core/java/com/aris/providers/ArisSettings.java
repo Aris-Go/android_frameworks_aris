@@ -391,6 +391,13 @@ public final class ArisSettings {
          */
         public static final String STATUS_BAR_SHOW_BATTERY_PERCENT = "status_bar_battery_percent";
 
+        /**
+         * Swap volume buttons on rotation
+         * 
+         * @hide
+         */
+        public static final String SWAP_VOLUME_KEYS_ON_ROTATION = "swap_volume_keys_on_rotation";
+
     }
 
     /**
